@@ -1,5 +1,11 @@
 # [![Web Starter Kit](https://cloud.githubusercontent.com/assets/110953/11445049/f05512ba-9520-11e5-8fdb-8c8eb5f690d0.jpg)](https://github.com/google/web-starter-kit/releases/latest)
 
+## Installation
+
+If installing on Digital Ocean, make sure there is enough memory, probably 2G.  If npm doesn't have enough it will silently fail getting packages and you will drive yourself crazy.
+
+If you get the error `no such directory in node-sass/vendor`, run `npm rebuild node-sass`.
+
 ## Overview
 
 [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/) is an opinionated boilerplate for web development. Tools for building a great experience across many devices and [performance oriented](#web-performance). Helping you to stay productive following the best practices outlined in Google's [Web Fundamentals](https://developers.google.com/web/fundamentals/). A solid starting point for both professionals and newcomers to the industry.
